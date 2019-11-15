@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "ClientId": "6OFg5fghAaAziT9KqcTdT9lYsSeRxpFcNKhnFO6ZtsXyFwmvnR",
+        "ClientSecret": "PFD5CtYOn67Y9WSoaoOsmonqJtCbQHSAvyeTE2xp"
+    }
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PetFinder.Views.AnimalPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label x:Name="lblName" Text="This value is not provided." TextColor="DarkGray" FontSize="Medium"/>
+            <Label x:Name="lblSpecies" Text="This value is not provided." TextColor="DarkGray" FontSize="Medium"/>
+            <Label x:Name="lblAge" Text="This value is not provided." TextColor="DarkGray" FontSize="Medium"/>
+            <Label x:Name="lblGender" Text="This value is not provided." TextColor="DarkGray" FontSize="Medium"/>
+            <Label x:Name="lblSize" Text="This value is not provided." TextColor="DarkGray" FontSize="Medium"/>
+            <Label x:Name="lblStatus" Text="This value is not provided." TextColor="DarkGray" FontSize="Medium"/>
+            <Label x:Name="lblDescription" Text="This value is not provided." TextColor="DarkGray" FontSize="Medium"/>
+            <Image x:Name="imgAnimals"/>
+            <Button x:Name="btnAppointment" Text="Make appointement" Clicked="btnAppointment_Clicked" BackgroundColor="#6504B5" CornerRadius="20" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

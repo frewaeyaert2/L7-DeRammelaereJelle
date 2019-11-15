@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PetFinder.Views.AppointmentPage">
+    <ContentPage.Content>
+        <StackLayout Padding="30">
+            <Label Text="Fill in the fields to make an appointment" FontSize="Subtitle" TextColor="LightGray"/>
+            <Label Text="Fill in your full name:" FontSize="Medium" TextColor="LightGray"/>
+            <Editor x:Name="editContactPerson" Placeholder="Enter your full name" Keyboard="Text" FontSize="Medium" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.ColumnSpan="2" Grid.Row="2" />
+            <Label Text="Fill in your emailaddress:" FontSize="Medium" TextColor="LightGray"/>
+            <Editor x:Name="editEmail" Placeholder="Enter your full name" Keyboard="Text" FontSize="Medium" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.ColumnSpan="2" Grid.Row="2" />
+            <Label Text="Choosse a date for the appointment:" FontSize="Medium" TextColor="LightGray"/>
+            <DatePicker x:Name="datePicker" Format="dd-MM-yyyy"/>
+            <Button x:Name="btnCancel" Text="Cancel" Margin="0,0,4,0" Pressed="btnCancel_Pressed" BackgroundColor="#6504B5" CornerRadius="20" TextColor="White"/>
+            <Button x:Name="btnCreateAppointment" Text="Make appointment" Margin="4,0,0,0" Pressed="btnCreateAppointment_Pressed" BackgroundColor="#6504B5" CornerRadius="20" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
